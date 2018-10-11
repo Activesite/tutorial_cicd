@@ -8,7 +8,7 @@ namespace Merken.NetCoreBuild.Test
         [Fact]
         public void Test_Util()
         {
-            var str = "This_Is_A_Test";
+            var str = "This_Is_A_Tsest";
             var strArray = str.Split(new String[]{"_"}, StringSplitOptions.RemoveEmptyEntries);
 
             Assert.Equal("Test", strArray[3]);
