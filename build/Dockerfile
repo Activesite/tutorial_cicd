@@ -1,6 +1,7 @@
 # this is the jenkins version, to upgrade the base image, alter the argument below
-ARG JENKINS_VERSION=2.60.3
-FROM jenkins:$JENKINS_VERSION
+#ARG JENKINS_VERSION=2.60.3
+#ARG JENKINS_VERSION=2.146
+FROM jenkins/jenkins:2.146
 LABEL name "netcorebuild"
 MAINTAINER Maarten Merken
 

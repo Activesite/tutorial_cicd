@@ -1,6 +1,6 @@
 # netCoreBuild
 
-Hi,
+Hi, Pom
 
 This project started off as a hobby to see the possibilities of having a one-click miniature CI-environment for an aspnet core application.
 
